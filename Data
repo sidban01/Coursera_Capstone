@@ -1,0 +1,6 @@
+This section describes how the data was obtained and the process of cleaning it up and converting it into Pandas data frames. 
+a.	 Data Collection:
+The Foursquare API will be used to collect location information of Indian restaurants in San Francisco. This data will be obtained using my Client-Id and Client-Secret of my Foursquare account. The crimes data will be taken from the dataset that was used in the Coursera module “Generating Maps with Python”. The idea is to combine information extracted from these two sources and come up with the best possible solution to open the proposed Indian restaurant within San Francisco. 
+b.	 Data Cleaning:
+The San Francisco crimes data has 150500 rows of data relating to crimes that were committed within the various police departments in the city. There are 13 features in this dataset that comprise of the incident number, category, description of the crime, day of week crime was committed, date, time, police district, resolution, address where the crime was committed, latitude, longitude, and the police department id. This dataset belongs to 2016 and details the various crimes reported under various police departments within the city. 
+
